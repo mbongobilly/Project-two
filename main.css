@@ -1,5 +1,5 @@
 body{
-      background-color:mediumseagreen; 
+      background-color:blueviolet; 
 }
 
 ul {
@@ -7,15 +7,19 @@ ul {
 
       margin: 0;
       padding: 0;
-      width:600px;
-      background-color:rgb(127, 165, 170)
+      width:300px;
+      overflow: hidden;
+      background-color:palegreen;
       
     } 
 
-   li a {
-         display: block;
-         padding:10px 8px;
-   }  
+    li a {
+      display: block;
+      padding:10px 10px;
+      text-align: center;
+      padding: 12px 14px;
+   
+}  
    
    li a:hover {
          background-color:#555;
@@ -49,13 +53,36 @@ ul {
          float: left;
    }
    li {
-         border-left:60px solid #eff;
+         border-left:60px solid #ddd;
    }
 
    img{
          margin:center 50px;
          padding:50px;
    }
+  p {
+        color:oldlace;
+  }
+  img {
+        max-width: 400%;
+        max-height: 200%;
+        object-fit: contain;
+  }
+  .cat {
+        height:500px;
+        width: 250px;
+  }
 
+  p {
+        font-size: 20px;
+  }
+  
+
+  ul {
+        position: -webkit-sticky;
+        /* Safari */
+        position: sticky;
+        top: 0;
+  }
 
    
